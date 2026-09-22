@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Project</title>
+  <!-- Link Tailwind Play CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    html {
+      scroll-behavior:smooth;
+
+    }
+  </style>
+</head>
+<body>
+  <!-- # NAV BAR ------------------------------------------------------------------+++
+  #---------------------------------------------------------------------------+++ -->
+  <div class = " py-2 flex justify-end ">
+      <!-- <div class = " border border-transparent px-4 transition-transform duration-200 hover:scale-110 active:scale-100  cursor-pointer text-xl font-serif tracking-wider">Mayukh</div> -->
+          <div >
+            <ul class = " p-4 flex gap-6">
+              <li class = " text-xl px-1 border rounded-3xl border-transparent duration-300 hover:scale-120 hover:bg-black hover:text-white font-serif active:scale-90 active:text-black active:bg-white cursor-pointer"><a href="#home">Home</a></li>
+              <li class = " text-xl px-1 border rounded-3xl border-transparent duration-300 hover:scale-120 hover:bg-black hover:text-white font-serif active:scale-90 active:text-black active:bg-white cursor-pointer"><a href="#About">About</a></li>
+              <li class = " text-xl px-1 border rounded-3xl border-transparent duration-300 hover:scale-120 hover:bg-black hover:text-white font-serif active:scale-90 active:text-black active:bg-white cursor-pointer"><a href="#Projects">Projects</a></li>
+              <li class = " text-xl px-1 border rounded-3xl border-transparent duration-300 hover:scale-120 hover:bg-black hover:text-white font-serif active:scale-90 active:text-black active:bg-white cursor-pointer"><a href="#Skills">Skills</a></li>
+              <li class = " text-xl px-1 border rounded-3xl border-transparent duration-300 hover:scale-120 hover:bg-black hover:text-white font-serif active:scale-90 active:text-black active:bg-white cursor-pointer"><a href="#Contact">Contact</a></li>
+            
+            </ul>
+          </div>
+  </div>
+  <!-- # -------------------------------------------------------------------------------------------------+++ -->
+
+  <!-- #HOME -------------------------------------------------------+++ -->
+  <div id = "Home" class = "min-h-screen bg-[url('./bg.avi')] border border-transparent">
+    <div class = " flex justify-center mt-30">
+      <img src="./me.jpg" alt="" class=" w-100 h-130 rounded-full object-covered">
+    </div>
+    <div id = "home" class = " border border-transparent rounded-3xl p-4 text-gray-800 bg-gradient-to-b from-emerald-500 to-blue-500 bg-clip-text text-transpare">
+      <span id = "Welcome" class  = "text-9xl font-bold font-serif flex justify-center mt-10">Welcome ,</span>
+      <span id = "wrest" class  = "text-6xl font-bold flex justify-center pt-5">A little bit about myself</span>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------+++ -->
+
+  <!-- #ABOUT------------------------------------------------------------+++ -->
+  <div id = "About" class = " border border-transparent">
+    <div class = " border border-transparent rounded-3xl px-4 flex flex-col ml-10 mt-30">
+      <span class = " font-serif text-5xl text-bold p-4 tracking-widest "> About </span>
+      <span class = " flex-wrap p-4 text-l italic font-sans">Hi, I’m Mayukh, a curious and adaptable professional with a strong passion for technology, problem-solving, and continuous learning.I’m a fast learner who adapts quickly to new environments, tools, and technologies. I enjoy taking on challenging problems because they push me to think critically, explore different approaches, and develop practical solutions.I’m naturally curious about how things work and always interested in learning something new. From exploring emerging technologies to working through complex problems,I enjoy challenges that keep me engaged and constantly improving.I bring a growth mindset, adaptability, and a genuine enthusiasm for technology to everything I work on.I’m looking for opportunities where I can contribute, learn from experienced people, take on meaningful challenges, and continue growing professionally.
+      </span>
+      
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------+++ -->
+  <!-- #SKILLS------------------------------------------------------------+++ -->
+  <div id = "Skills" class = " bg-gradient from-cyan-500 to-white border border-transparent ">
+    <div class = " border border-transparent rounded-3xl px-4 flex flex-col ml-10 mt-30">
+      <span class = " font-serif text-5xl text-bold p-4 "> Skills </span>
+      <span class = " flex gap-8 p-4 flex-wrap">
+        <i class=" text-5xl devicon-python-plain colored"><span class = " px-4 text-3xl">Python</span></i>
+        <i class=" text-5xl devicon-cplusplus-plain colored"><span class = " px-4 text-3xl">C++</span></i>
+        <i class=" text-5xl devicon-c-plain "><span class = " px-4 text-3xl">C</span></i>
+        <i class=" text-5xl devicon-html5-plain colored"><span class = " px-4 text-3xl">Html</span></i>
+        <i class=" text-5xl devicon-css3-plain colored"><span class = " px-4 text-3xl">Css</span></i>
+        <i class=" text-5xl devicon-javascript-plain colored"><span class = " px-4 text-3xl">Javascript</span></i>
+        <i class=" text-5xl devicon-react-original colored"><span class = " px-4 text-3xl">React</span></i>
+        <i class=" text-5xl devicon-tailwindcss-original colored"><span class = " px-4 text-3xl">Tailwindcss</span></i>
+        <i class=" text-5xl devicon-nodejs-plain colored"><span class = " px-4 text-3xl">Nodejs</span></i>
+        <i class=" text-5xl devicon-github-original colored"><span class = " px-4 text-3xl">Github</span></i>
+      </span>
+      
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------+++ -->
+  <!-- #PROJECTS------------------------------------------------------------+++ -->
+  <div id = "Projects" class = "bg-gradient from-cyan-500 to-white border border-transparent">
+    <div class = " border border-transparent rounded-3xl px-4 flex flex-col ml-10 mt-10">
+      <span class = " font-serif text-5xl text-bold p-4 "> Projects </span>
+      <span class = "p-4 w-1/2 text-l italic font-sans">Hi, I’m Mayukh, a curious and adaptable professional with a strong passion for technology, problem-solving, and continuous learning.
+        I’m a fast learner who adapts quickly to new environments, tools, and technologies. 
+        I enjoy taking on challenging problems because they push me to think critically, 
+        explore different approaches, and develop practical solutions.
+        I’m naturally curious about how things work and always interested in learning something new. From exploring emerging technologies to working through complex problems,
+        I enjoy challenges that keep me engaged and constantly improving.
+        I bring a growth mindset, adaptability, and a genuine enthusiasm for technology to everything I work on.
+        I’m looking for opportunities where I can contribute, learn from experienced people, take on meaningful challenges, and continue growing professionally.
+      </span>
+      
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------+++ -->
+  <!-- #CONTACT------------------------------------------------------------+++ -->
+  <div id = "Contact" class = "flex justify-end">
+    <div class = " border border-transparent rounded-3xl px-4 flex ml-10 flex flex-col justify-end ">
+      <!-- <span class = "text-3xl text-bold font-serif flex justify-center"> Connect :- </span> -->
+        <ul class = "flex gap-6 p-4" >
+          <li class = "text-xl font-serif "><i class = "devicon-google-plain colored"><span class = "p-1"><a href="https://mail.google.com/mail/?view=cm&to=mayukh7667@gmail.com" target = "_blank" rel = "noopener noreferrer">mail</a></span></i></li>
+          <li class = "text-xl font-serif "><i class = "devicon-github-plain colored"><span class = "p-1"><a href="https://github.com/dashboard" target = "_blank" rel = "noopener noreferrer">Github</a></span></i></li>
+          <li class = "text-xl font-serif "><i class = "devicon-linkedin-plain colored"><span class = "p-1"><a href="https://www.linkedin.com/in/mayukh-ghosh-801b01396?utm_source=share_via&utm_content=profile&utm_medium=member_android" target = "_blank" rel = "noopener noreferrer">Linkedin</a></span></i></li>
+          <!-- <li class = "text-xl font-serif "><a href="https://leetcode.com/" target="_blank" rel = " noopener noreferrer"><img src="https://cdn.simpleicons.org/leetcode/FFA116" alt="LeetCode" class="w-10 h-10 transition-transform duration-300 hover:scale-110"/></a>LeetCode</a></span></i></li> -->
+          
+        </ul>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------+++ -->
+  
+</body>
+</html>
